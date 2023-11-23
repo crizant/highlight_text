@@ -4,7 +4,7 @@ A flutter package to highlight words from a text.
 
 ## Usage
 
-To use this package, add `highlight_text` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+To use this package, add `highlight_text_plus` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 ## Getting Started
 
@@ -13,12 +13,14 @@ With this package you can highlight words and create specific actions for each h
 ## Example
 
 Import the highlight library
-``` dart
-import 'package:highlight_text/highlight_text.dart';
+
+```dart
+import 'package:highlight_text_plus/highlight_text_plus.dart';
 ```
 
 You should use the `HighlightedWord` class to specify the dictionary words in a Map object
-``` dart
+
+```dart
 Map<String, HighlightedWord> words = {
     "Flutter": HighlightedWord(
         onTap: () {
@@ -42,7 +44,8 @@ Map<String, HighlightedWord> words = {
 ```
 
 Now you can call the `TextHighlight` widget
-``` dart
+
+```dart
 TextHighlight(
     text: text, // You need to pass the string you want the highlights
     words: words, // Your dictionary words
@@ -61,7 +64,7 @@ TextHighlight(
 Now you can customize better the words you highlight, just like a `Container`.
 It was added `decoration` and `padding` fields to `HighlightedWord` object, so you can do whatever you want to customize it.
 
-``` dart
+```dart
 HighlightedWord(
     onTap: () {},
     textStyle: textStyle,
@@ -77,7 +80,7 @@ HighlightedWord(
 
 `enableCaseSensitive` renamed to `matchCase` to be clearer about what it does
 
-``` dart
+```dart
 TextHighlight(
     text: text,
     words: words,

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:highlight_text/src/binding.dart';
-import 'package:highlight_text/src/sort.dart';
+import 'package:highlight_text_plus/src/binding.dart';
+import 'package:highlight_text_plus/src/sort.dart';
 import 'highlighted_word.dart';
 import 'text_element.dart';
 

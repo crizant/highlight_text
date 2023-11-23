@@ -1,7 +1,7 @@
-name: highlight_text
+name: highlight_text_plus
 description: With this package you can highlight words and create specific styles and actions.
-version: 1.7.0
-homepage: https://github.com/desconexo/highlight_text
+version: 2.0.0
+homepage: https://github.com/crizant/highlight_text
 
 environment:
   sdk: ">=2.14.0 <4.0.0"
