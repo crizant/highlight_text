@@ -1,13 +1,20 @@
+## 2.0.0
+
+- Changed `textScaleFactor` to `textScaler` to support flutter 3.16
+
 ## 1.7.0
+
 - Added textScaleFactor;
 - Rewritten binding logic;
 
 Thanks to [Crizant](https://github.com/crizant)
 
 ## 1.6.0
+
 Added `splitOnLongWord`, it will split the words when it is too long, keeping the words in the same line as the text.
 
 ## 1.5.0
+
 Fixed number parse issue
 Thanks to [Hakob](https://github.com/Hakob)
 

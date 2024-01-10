@@ -87,3 +87,7 @@ TextHighlight(
     matchCase: true // will highlight only exactly the same string
 ),
 ```
+
+## 2.0.0 Breaking changes
+
+Changed `textScaleFactor` to `textScaler` to support flutter 3.16
