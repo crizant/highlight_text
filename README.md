@@ -78,7 +78,7 @@ HighlightedWord(
 
 ## 1.2.0 Breaking changes
 
-`enableCaseSensitive` renamed to `matchCase` to be clearer about what it does
+`enableCaseSensitive` renamed to `matchCase` to be clearer about what it does.
 
 ```dart
 TextHighlight(
@@ -90,4 +90,4 @@ TextHighlight(
 
 ## 2.0.0 Breaking changes
 
-Changed `textScaleFactor` to `textScaler` to support flutter 3.16
+Changed `textScaleFactor` to `textScaler` to support flutter 3.16.

@@ -1,6 +1,6 @@
 ## 2.0.0
 
-- Changed `textScaleFactor` to `textScaler` to support flutter 3.16
+- Changed `textScaleFactor` to `textScaler` to support flutter 3.16.
 
 ## 1.7.0
 
