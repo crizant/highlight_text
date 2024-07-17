@@ -119,7 +119,7 @@ class TextHighlight extends StatelessWidget {
                 return splittedWords.map((w) {
                   if (w == ' ') {
                     return TextSpan(
-                      text: '',
+                      text: ' ',
                       style: textStyle,
                     );
                   }
